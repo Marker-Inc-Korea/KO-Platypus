@@ -36,7 +36,7 @@ I focus about **5 type errors.**
 *Note: If you want to see more detail example, visit [Ko-Platypus-blog](https://kyujinpy.tistory.com/101).  
   
 # Performance
-When I evaluate Ko-Platy, I use this [repo](https://github.com/Beomi/ko-lm-evaluation-harness).
+When I evaluate Ko-Platy, I use this [repo](https://github.com/Beomi/ko-lm-evaluation-harness).  
 And, implement below code.
 ```
 # In colab,
