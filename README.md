@@ -24,4 +24,5 @@ Prompt: 'Platypus wears a pretty traditional Korean clothes with 한국어 책'
 Guidance: 10
 Quality: 70~100
 img2img: 'Platypus.png'
+Model: SDXL
 ```  
