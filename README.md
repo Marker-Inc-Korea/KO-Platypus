@@ -6,7 +6,7 @@
 
 # Introduction
 - 최근 **llama-2** 등장으로 LLM 분야가 다시 활발해지는 가운데, **Open-Platypus** 데이터셋 활용하여 llama-2를 fine-tuning한 **Platpyus** 모델이 등장하였습니다!🤗
-- Platypus는 Open-Platypus 데이터셋을 LORA 방식을 활용하여 적은 파라미터 대비 아주 높은 성능을 보여주고 있고, huggingface LLM 리더보드 상위권에 위치해 있습니다..!
+- Platypus는 다른 LLM보다 적은 파라미터 수 대비 높은 성능을 보여주고 있고, huggingface LLM 리더보드 상위권에 위치해 있습니다..!
 - 하지만 Open-Platypus 데이터셋은 대부분 영어로만 구성되어 있기 때문에 한국어에 접목하기에는 한계가 있었습니다.
 - 이것을 동기부여로 삼아서, 한국어 기반의 Open-Platypus 데이터셋을 제작한 후, **Ko-Platypus**를 만들기로 계획하였습니다!🙂🙂
 - Open-Platypus를 DeepL Pro API를 활용하여 번역을 진행한 후, 약 25,000개의 데이터를 수작업으로 체크하였고 약 144시간 정도 소요하여서 번역 오류를 대부분 고쳤습니다😭😭
