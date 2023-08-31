@@ -5,7 +5,7 @@
 **KO-Platypus2-7B-ex:** (Coming soon; private) [![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue)](https://huggingface.co/kyujinpy/KO-Platypus2-7B-ex)   
 
 # Introduction
-- 최근 **llama-2** 등장으로 LLM 분야가 다시 활발해지는 가운데, **Open-Platypus** 데이터셋 활용하여 llama-2를 fine-tuning한 **Platpyus** 모델이 등장하였습니다!🤗🤗
+- 최근 **llama-2** 등장으로 LLM 분야가 다시 활발해지는 가운데, **Open-Platypus** 데이터셋 활용하여 llama-2를 fine-tuning한 **Platpyus** 모델이 등장하였습니다!🤗
 - Platypus는 Open-Platypus 데이터셋을 LORA 방식을 활용하여 적은 파라미터 대비 아주 높은 성능을 보여주고 있고, huggingface LLM 리더보드 상위권에 위치해 있습니다..!
 - 하지만 Open-Platypus 데이터셋은 대부분 영어로만 구성되어 있기 때문에 한국어에 접목하기에는 한계가 있었습니다.
 - 이것을 동기부여로 삼아서, 한국어 기반의 Open-Platypus 데이터셋을 제작한 후, **Ko-Platypus**를 만들기로 계획하였습니다!🙂🙂
@@ -13,7 +13,7 @@
 - 이렇게 만들어진 **🥮KOpen-Platypus🥮** 데이터셋을 활용하여 llama-2-13B 모델을 fine-tuning 하였습니다.
 - 결과적으로 Ko-Platypus2-13B 모델을 만들게 되었고✌, 성능평가를 위해 Polyglot-Ko와 llama-2-ko 모델과 비교를 진행했습니다.🙂🙃
 - **🥮Ko-Platypus2🥮** 모델은 NLI(자연어 추론 분야)에 대해서는 상대적으로 성능이 낮았지만, Classification에 대해서는 성능이 높았습니다. 
-- 추후에, KOpen-Platypus 데이터셋을 여러 한국어 기반 LLM에 접목하여 fine-tuning한 후, 여러 성능평가를 진행해 볼 예정입니다😄😄
+- 추후에, KOpen-Platypus 데이터셋을 여러 한국어 기반 LLM에 접목하여 fine-tuning한 후, 여러 성능평가를 진행해 볼 예정입니다😄
 - 본 연구는 (주)마커와 (주)미디어그룹사람과숲의 오픈소스 LLM 연구 컨소시엄에서 진행되었습니다.
 
 # Quick start
