@@ -36,6 +36,18 @@ I focus about **5 type errors.**
 *Note: If you want to see more detail example, visit [Ko-Platypus-blog](https://kyujinpy.tistory.com/101).  
   
 # Performance
+When I evaluate Ko-Platy, I use this [repo](https://github.com/Beomi/ko-lm-evaluation-harness).
+And, implement below code.
+```
+# In colab,
+!python main.py \
+    --model gpt2 \
+    --model_args pretrained=kyujinpy/KO-Platypus2-13B \
+    --tasks kobest_hellaswag,kobest_copa,kobest_boolq,kobest_sentineg \
+    --device cuda:0 \
+    --num_fewshot 0
+```
+  
 ### COPA (F1)
 | Model | 0-shot | 5-shot | 10-shot | 50-shot |
 | --- | --- | --- | --- | --- |
