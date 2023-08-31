@@ -21,8 +21,8 @@
 2. 🥮Run the file🥮: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1qtGQroKPwGFA1L9b3WGyHC84NDIEs6s_?usp=sharing)
   
 *Note: You must access the original [llama-2](https://huggingface.co/meta-llama/Llama-2-7b).      
-**Note: You must generate your huggingface token. And after login, you implement this code.  
-***Note: If you run Platypus-13B in colab, you must use A100 GPU. Training time is about 160 hours.  
+**Note: You must generate your huggingface token. And after login, you can implement this [colab](https://colab.research.google.com/drive/1qtGQroKPwGFA1L9b3WGyHC84NDIEs6s_?usp=sharing).  
+***Note: If you run Platypus-13B in colab, you must use A100 GPU. Training time is about 160 ~ 200 hours.  
 
 # Datasets
 **KOpen-Platypus🥮:** [![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue)](https://huggingface.co/datasets/kyujinpy/KOpen-platypus)   
