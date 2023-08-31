@@ -17,6 +17,22 @@
 - 본 연구는 (주)마커와 (주)미디어그룹사람과숲의 오픈소스 LLM 연구 컨소시엄에서 진행되었습니다.
 
 # Quick start
+```python
+### KO-Platypus
+from transformers import AutoModelForCausalLM, AutoTokenizer
+import torch
+
+repo = "kyujinpy/KO-Platypus2-13B"
+ko_platypus = AutoModelForCausalLM.from_pretrained(
+        repo,
+        return_dict=True,
+        torch_dtype=torch.float16,
+        device_map='auto'
+)
+ko_platypus_tokenizer = AutoTokenizer.from_pretrained(repo)
+```
+  
+# Training 
 1. First download the origina repo [Platypus](https://github.com/arielnlee/Platypus)
 2. 🥮Run the file🥮: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1qtGQroKPwGFA1L9b3WGyHC84NDIEs6s_?usp=sharing)
   
@@ -25,6 +41,12 @@
 >***Note: If you run Platypus-13B in colab, you must use A100 GPU. Training time is about 160 ~ 200 hours.  
 
 # Datasets
+```python
+from datasets import load_dataset
+
+# dataset testing
+dataset = load_dataset("kyujinpy/KOpen-platypus")
+```  
 **KOpen-Platypus🥮:** [![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue)](https://huggingface.co/datasets/kyujinpy/KOpen-platypus)   
 > I think that **KOpen-Platypus** is higher quality korean-translation dataset than just using DeepL. Because I almost check translation-error.  
 
