@@ -40,7 +40,8 @@ I focus about **5 type errors.**
 2. Result of code+explanation   
 3. Float missing   
 4. Math symbol   
-5. Not translation or cut off translation result  
+5. Not translation or cut off translation result
+    
 *Note: If you want to see more detail example, visit [Ko-Platypus-blog](https://kyujinpy.tistory.com/101).  
   
 # Performance
