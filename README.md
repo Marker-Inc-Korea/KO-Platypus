@@ -104,7 +104,7 @@ I focus about **5 type errors.**
 - [x] Share evaluation results
 - [x] Share sample code
 
-## Additional about image
+## Additional info about image
 I make the image, inspired by [Platypus-LLM]()
 I use [Playground AI](https://playgroundai.com/), then using prompt engineering (for example, img2img, guidance etc.)
 
