@@ -15,7 +15,7 @@
 # Datasets
 **KOpen-platypus🥮:** [![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue)](https://huggingface.co/datasets/kyujinpy/KOpen-platypus)   
 
-I think that **KOpen-platypus** is very high-quality korean-translation dataset. Because I almost check translation-error.  
+I think that **KOpen-platypus** is higher quality korean-translation dataset than just using DeepL. Because I almost check translation-error.  
 *Note: (9/1; Currently private repo yet. Will be change public..!)   
 
 **Procedure**  
