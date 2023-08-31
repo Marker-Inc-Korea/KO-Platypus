@@ -8,8 +8,9 @@
   
 # Quick start
 1. First download the origina repo [Platypus](https://github.com/arielnlee/Platypus)
-2. 🥮Run the file🥮: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1qtGQroKPwGFA1L9b3WGyHC84NDIEs6s_?usp=sharing)   
-*Note: You must access the original [llama-2](https://huggingface.co/meta-llama/Llama-2-7b).    
+2. 🥮Run the file🥮: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1qtGQroKPwGFA1L9b3WGyHC84NDIEs6s_?usp=sharing)
+  
+*Note: You must access the original [llama-2](https://huggingface.co/meta-llama/Llama-2-7b).      
 **Note: You must generate your huggingface token. And after login, you implement this code.
 ***Note: If you run Platypus-13B in colab, you must use A100 GPU. Training time is about 160 hours.  
 
