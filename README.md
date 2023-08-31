@@ -105,7 +105,7 @@ I focus about **5 type errors.**
 - [x] Share sample code
 
 ## Additional info about image
-I make the image, inspired by [Platypus-LLM]()
+I make the image, inspired by [Platypus-LLM](https://github.com/arielnlee/Platypus).  
 I use [Playground AI](https://playgroundai.com/), then using prompt engineering (for example, img2img, guidance etc.)
 
 When I make `Ko-platy` image, I use prompt like below.
