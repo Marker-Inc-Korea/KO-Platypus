@@ -1,8 +1,8 @@
-# KO-platypus (Ko-Platy🥮)
+# KO-Platypus (Ko-Platy🥮)
 ![KO-platypus](./KO_platypus.png)
-**Korean-Open-platypus를 활용하여 llama-2를 fine-tuning한 Korean-platypus model**  
-**KO-platypus2-13B🥮:** [![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue)](https://huggingface.co/kyujinpy/KO-Platypus2-13B)   
-**KO-platypus2-7B-ex:** (Coming soon; private)[![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue)](https://huggingface.co/kyujinpy/KO-Platypus2-7B-ex)   
+**Korean-Open-platypus를 활용하여 llama-2를 fine-tuning한 Korean-Platypus model**  
+**KO-Platypus2-13B🥮:** [![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue)](https://huggingface.co/kyujinpy/KO-Platypus2-13B)   
+**KO-Platypus2-7B-ex:** (Coming soon; private)[![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue)](https://huggingface.co/kyujinpy/KO-Platypus2-7B-ex)   
 
 # Introduction
   
@@ -15,9 +15,9 @@
 ***Note: If you run Platypus-13B in colab, you must use A100 GPU. Training time is about 160 hours.  
 
 # Datasets
-**KOpen-platypus🥮:** [![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue)](https://huggingface.co/datasets/kyujinpy/KOpen-platypus)   
+**KOpen-Platypus🥮:** [![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue)](https://huggingface.co/datasets/kyujinpy/KOpen-platypus)   
 
-I think that **KOpen-platypus** is higher quality korean-translation dataset than just using DeepL. Because I almost check translation-error.  
+I think that **KOpen-Platypus** is higher quality korean-translation dataset than just using DeepL. Because I almost check translation-error.  
 *Note: (9/1; Currently private repo yet. Will be change public..!)   
 
 **Procedure**  
@@ -105,8 +105,8 @@ And, implement below code.
 | **KO-platypus2-7B-ex(ours)** | NaN | NaN | NaN | NaN |  
   
 # References
-[Kopen-platypus🥮](https://huggingface.co/datasets/kyujinpy/KOpen-platypus)   
-[KO-platypus2-13B🥮](https://huggingface.co/kyujinpy/KO-Platypus2-13B)   
+[Kopen-Platypus🥮](https://huggingface.co/datasets/kyujinpy/KOpen-platypus)   
+[KO-Platypus2-13B🥮](https://huggingface.co/kyujinpy/KO-Platypus2-13B)   
 [Platypus](https://github.com/arielnlee/Platypus)  
 [llama-2](https://huggingface.co/meta-llama/Llama-2-7b)  
 [ko-lm-evaluation-harness](https://github.com/Beomi/ko-lm-evaluation-harness)   
@@ -118,10 +118,10 @@ And, implement below code.
 - [x] Share sample code
 
 ## Additional info about image
-I make the image, inspired by [Platypus-LLM](https://github.com/arielnlee/Platypus).  
-I use [Playground AI](https://playgroundai.com/), then using prompt engineering (for example, img2img, guidance etc.)
+I made the image, inspired by [Platypus-LLM](https://github.com/arielnlee/Platypus).  
+I used [Playground AI](https://playgroundai.com/), then applying prompt engineering. (For example, img2img, guidance etc...)  
 
-When I make `Ko-platy` image, I use prompt like below.
+When I made `Ko-Platy` image, I use prompt like below.
 ```
 Prompt: 'Platypus wears a pretty traditional Korean clothes with 한국어 책'
 Guidance: 10
