@@ -46,6 +46,7 @@ I focus about **5 type errors.**
 | [Llama-2-Ko-7b 40B](https://huggingface.co/beomi/llama-2-ko-7b) | 0.7436 | 0.7927 | 0.8037 | 0.8259 |
 | [Platypus2-13B](https://huggingface.co/garage-bAInd/Platypus2-13B) | 0.5916 | 0.6437 | 0.6474 | 0.6677 |
 | **KO-platypus2-13B(ours)** | 0.5820 | 0.6269 | 0.6267 | 0.6527 |  
+| **KO-platypus2-7B-ex(ours)** | NaN | NaN | NaN | NaN |  
   
 ### HellaSwag (F1)
 | Model | 0-shot | 5-shot | 10-shot | 50-shot |
@@ -59,6 +60,7 @@ I focus about **5 type errors.**
 | [Llama-2-Ko-7b 40B](https://huggingface.co/beomi/llama-2-ko-7b) | 0.4562 | 0.4657 | 0.4698 | 0.4774 |
 | [Platypus2-13B](https://huggingface.co/garage-bAInd/Platypus2-13B) | 0.4136 | 0.4320 | 0.4315 | 0.4426 |
 | **KO-platypus2-13B(ours)** | 0.3912 | 0.4129 | 0.4144 | 0.4330 |  
+| **KO-platypus2-7B-ex(ours)** | NaN | NaN | NaN | NaN |  
   
 ### BoolQ (F1)
 | Model | 0-shot | 5-shot | 10-shot | 50-shot |
@@ -72,6 +74,7 @@ I focus about **5 type errors.**
 | [Llama-2-Ko-7b 40B](https://huggingface.co/beomi/llama-2-ko-7b) | 0.5786 | 0.6977 | 0.7084 | 0.7144 |
 | [Platypus2-13B](https://huggingface.co/garage-bAInd/Platypus2-13B) | 0.3428 | 0.7499 | 0.7957 | 0.7676 |
 | **KO-platypus2-13B(ours)** | 0.3539 | 0.7168 | 0.7328 | 0.7172 |  
+| **KO-platypus2-7B-ex(ours)** | NaN | NaN | NaN | NaN |  
   
 ### SentiNeg (F1)
 | Model | 0-shot | 5-shot | 10-shot | 50-shot |
@@ -85,6 +88,7 @@ I focus about **5 type errors.**
 | [Llama-2-Ko-7b 40B](https://huggingface.co/beomi/llama-2-ko-7b) | 0.4594 | 0.7611 | 0.7276 | 0.9370 |
 | [Platypus2-13B](https://huggingface.co/garage-bAInd/Platypus2-13B) | 0.5969 | 0.7674 | 0.8032 | 0.8939 |
 | **KO-platypus2-13B(ours)** | 0.5216 | 0.8236 | 0.8487 | 0.8789 |  
+| **KO-platypus2-7B-ex(ours)** | NaN | NaN | NaN | NaN |  
   
 # References
 [Kopen-platypus🥮](https://huggingface.co/datasets/kyujinpy/KOpen-platypus)   
