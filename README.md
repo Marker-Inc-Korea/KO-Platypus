@@ -42,7 +42,7 @@ I focus about **5 type errors.**
 4. Math symbol   
 5. Not translation or cut off translation result
   
->*Note: If you want to see more detail example, visit [Ko-Platypus-blog](https://kyujinpy.tistory.com/101).  
+>*Note: If you want to see more detail example, visit [huggingface](https://huggingface.co/datasets/kyujinpy/KOpen-platypus) or [Ko-Platypus-blog](https://kyujinpy.tistory.com/101).  
   
 # Performance
 When I evaluated Ko-Platy, I used this [repo](https://github.com/Beomi/ko-lm-evaluation-harness).  
