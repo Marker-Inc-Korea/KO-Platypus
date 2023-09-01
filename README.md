@@ -90,7 +90,8 @@ And, implement below code.
 | [Llama-2-Ko-7b 20B](https://huggingface.co/beomi/llama-2-ko-7b) | 0.7388 | 0.7626 | 0.7808 | 0.7979 |
 | [Llama-2-Ko-7b 40B](https://huggingface.co/beomi/llama-2-ko-7b) | 0.7436 | 0.7927 | 0.8037 | 0.8259 |
 | **KO-platypus2-13B(ours)** | 0.5820 | 0.6269 | 0.6267 | 0.6527 |  
-| **KO-platypus2-7B-ex(ours)** | NaN | NaN | NaN | NaN |  
+| **KO-platypus2-7B-ex(ours)** | 0.7509 | 0.7899 | 0.8029 | 0.8290 |   
+| **KO-platypus2-13B-ex(ours)** | NaN | NaN | NaN | NaN |  
   
 ### HellaSwag (F1)
 | Model | 0-shot | 5-shot | 10-shot | 50-shot |
@@ -102,7 +103,8 @@ And, implement below code.
 | [Llama-2-Ko-7b 20B](https://huggingface.co/beomi/llama-2-ko-7b) | 0.4518 | 0.4668 | 0.4726 | 0.4828 |
 | [Llama-2-Ko-7b 40B](https://huggingface.co/beomi/llama-2-ko-7b) | 0.4562 | 0.4657 | 0.4698 | 0.4774 |
 | **KO-platypus2-13B(ours)** | 0.3912 | 0.4129 | 0.4144 | 0.4330 |  
-| **KO-platypus2-7B-ex(ours)** | NaN | NaN | NaN | NaN |  
+| **KO-platypus2-7B-ex(ours)** | 0.4571 | 0.4461 | 0.4371 | 0.4525 |   
+| **KO-platypus2-13B-ex(ours)** | NaN | NaN | NaN | NaN |  
   
 ### BoolQ (F1)
 | Model | 0-shot | 5-shot | 10-shot | 50-shot |
@@ -114,7 +116,8 @@ And, implement below code.
 | [Llama-2-Ko-7b 20B](https://huggingface.co/beomi/llama-2-ko-7b) | 0.3607 | 0.6797 | 0.6801 | 0.6622 |
 | [Llama-2-Ko-7b 40B](https://huggingface.co/beomi/llama-2-ko-7b) | 0.5786 | 0.6977 | 0.7084 | 0.7144 |
 | **KO-platypus2-13B(ours)** | 0.3539 | 0.7168 | 0.7328 | 0.7172 |  
-| **KO-platypus2-7B-ex(ours)** | NaN | NaN | NaN | NaN |  
+| **KO-platypus2-7B-ex(ours)** | 0.6028 | 0.6979 | 0.7016 | NaN |  
+| **KO-platypus2-13B-ex(ours)** | NaN | NaN | NaN | NaN |  
   
 ### SentiNeg (F1)
 | Model | 0-shot | 5-shot | 10-shot | 50-shot |
@@ -126,11 +129,14 @@ And, implement below code.
 | [Llama-2-Ko-7b 20B](https://huggingface.co/beomi/llama-2-ko-7b) | 0.4855 | 0.8295 | 0.8711 | 0.8513 |
 | [Llama-2-Ko-7b 40B](https://huggingface.co/beomi/llama-2-ko-7b) | 0.4594 | 0.7611 | 0.7276 | 0.9370 |
 | **KO-platypus2-13B(ours)** | 0.5216 | 0.8236 | 0.8487 | 0.8789 |  
-| **KO-platypus2-7B-ex(ours)** | NaN | NaN | NaN | NaN |  
-  
+| **KO-platypus2-7B-ex(ours)** | 0.5821 | 0.7653 | 0.7991 | NaN |  
+| **KO-platypus2-13B-ex(ours)** | NaN | NaN | NaN | NaN |  
+   
 # References
 [Kopen-Platypus🥮](https://huggingface.co/datasets/kyujinpy/KOpen-platypus)   
+[KO-Platypus2-7B-ex🥮](https://huggingface.co/kyujinpy/KO-Platypus2-7B-ex)  
 [KO-Platypus2-13B🥮](https://huggingface.co/kyujinpy/KO-Platypus2-13B)   
+[KO-Platypus2-13B-ex🥮](https://huggingface.co/kyujinpy/KO-Platypus2-13B-ex)  
 [Platypus](https://github.com/arielnlee/Platypus)  
 [llama-2](https://huggingface.co/meta-llama/Llama-2-7b)  
 [ko-lm-evaluation-harness](https://github.com/Beomi/ko-lm-evaluation-harness)   
