@@ -3,20 +3,33 @@
 **Korean-Open-platypus를 활용하여 llama-2를 fine-tuning한 Korean-Platypus model**  
 **KO-Platypus2-7B-ex:** (Coming soon; private) [![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue)](https://huggingface.co/kyujinpy/KO-Platypus2-7B-ex)   
 **KO-Platypus2-13B🥮:** (Coming soon; private) [![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue)](https://huggingface.co/kyujinpy/KO-Platypus2-13B)   
-**KO-Platypus2-13B-ex🥮:** (Coming soon; private) [![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue)](https://huggingface.co/kyujinpy/KO-Platypus2-13B-ex) 
+**KO-Platypus2-13B-ex🥮:** (Coming soon; private) [![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue)](https://huggingface.co/kyujinpy/KO-Platypus2-13B-ex)  
 
 # Introduction
 - 최근 **llama-2** 등장으로 LLM 분야가 다시 활발해지는 가운데, **Open-Platypus** 데이터셋 활용하여 llama-2를 fine-tuning한 **Platpyus** 모델이 등장하였습니다!🤗
-- Platypus는 다른 LLM보다 적은 파라미터 수 대비 높은 성능을 보여주고 있고, huggingface LLM 리더보드 상위권에 위치해 있습니다..!
 - 하지만 Open-Platypus 데이터셋은 대부분 영어로만 구성되어 있기 때문에 한국어에 접목하기에는 한계가 있었습니다.
+  
 - 이것을 동기부여로 삼아서, 한국어 기반의 Open-Platypus 데이터셋을 제작한 후, **Ko-Platypus**를 만들기로 계획하였습니다!🙂🙂
 - Open-Platypus를 DeepL Pro API를 활용하여 번역을 진행한 후, 약 25,000개의 데이터를 수작업으로 체크하였고 약 144시간 정도 소요하여서 번역 오류를 대부분 고쳤습니다😭😭
-- 이렇게 만들어진 **🥮KOpen-Platypus🥮** 데이터셋을 활용하여 llama-2-13B 모델을 fine-tuning 하였습니다.
-- 결과적으로 Ko-Platypus2-13B 모델을 만들게 되었고✌, 성능평가를 위해 Polyglot-Ko와 llama-2-ko 모델과 비교를 진행했습니다.🙂🙃
-- **🥮Ko-Platypus🥮** 모델은 NLI(자연어 추론 분야)에 대해서는 상대적으로 성능이 낮았지만, Classification에 대해서는 성능이 높았습니다. 
-- 추후에, KOpen-Platypus 데이터셋을 여러 한국어 기반 LLM에 접목하여 fine-tuning한 후, 여러 성능평가를 진행해 볼 예정입니다😄
+- 이렇게 만들어진 **🥮KOpen-Platypus🥮** 데이터셋을 활용하여 **llama-2** 모델을 fine-tuning 하였습니다.
+  
+- 결과적으로 **3가지 버전(13B, 7B-ex, 13B-ex)의 Ko-Platypus2** 모델을 만들게 되었고✌, 성능평가를 위해 Polyglot-Ko와 llama-2-ko 모델과 비교를 진행했습니다.🙂🙃
 - 본 연구는 (주)마커와 (주)미디어그룹사람과숲의 오픈소스 LLM 연구 컨소시엄에서 진행되었습니다.
+  
+# Model Description  
+### KO-Platypus2-13B
+- **llama-2-13b를 fine-tuning한 모델**
+- 성능적인 측면에서는, llama-2-ko보다 좋지 못한 성능을 보였고 대부분 낮은 성능을 기록했다.
+- 아마 한국어 vocab 및 token이 부족하여 성능이 낮게 나온 것으로 생각이 든다.
 
+### KO-Platypus2-7B-ex
+- **llama-2-ko-7B를 fine-tuning한 모델**
+- **🥮KO-Platypus2-7B-ex🥮** 모델은 zero-shot에서 llama-2-ko보다 높은 성능을 보여주었고, BoolQ의 경우에는 Polyglot-Ko보다 높은 성능을 보여주었습니다.✌✌
+  
+### KO-Platypus2-13B-ex
+- **llama-2-13B vocab을 korean vocab으로 expansion한 후 fine-tuning한 모델**
+- (coming soon...)
+  
 # Quick start
 ```python
 ### KO-Platypus
@@ -139,6 +152,7 @@ And, implement below code.
 [KO-Platypus2-13B-ex🥮](https://huggingface.co/kyujinpy/KO-Platypus2-13B-ex)  
 [Platypus](https://github.com/arielnlee/Platypus)  
 [llama-2](https://huggingface.co/meta-llama/Llama-2-7b)  
+[llama-2-ko](https://huggingface.co/beomi/llama-2-ko-7b)  
 [ko-lm-evaluation-harness](https://github.com/Beomi/ko-lm-evaluation-harness)   
   
 # TODO
