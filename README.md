@@ -129,7 +129,7 @@ And, implement below code.
 | [Llama-2-Ko-7b 20B](https://huggingface.co/beomi/llama-2-ko-7b) | 0.3607 | 0.6797 | 0.6801 | 0.6622 |
 | [Llama-2-Ko-7b 40B](https://huggingface.co/beomi/llama-2-ko-7b) | 0.5786 | 0.6977 | 0.7084 | 0.7144 |
 | **KO-platypus2-13B(ours)** | 0.3539 | 0.7168 | 0.7328 | 0.7172 |  
-| **KO-platypus2-7B-ex(ours)** | 0.6028 | 0.6979 | 0.7016 | NaN |  
+| **KO-platypus2-7B-ex(ours)** | 0.6028 | 0.6979 | 0.7016 | 0.6988 |  
 | **KO-platypus2-13B-ex(ours)** | NaN | NaN | NaN | NaN |  
   
 ### SentiNeg (F1)
@@ -142,7 +142,7 @@ And, implement below code.
 | [Llama-2-Ko-7b 20B](https://huggingface.co/beomi/llama-2-ko-7b) | 0.4855 | 0.8295 | 0.8711 | 0.8513 |
 | [Llama-2-Ko-7b 40B](https://huggingface.co/beomi/llama-2-ko-7b) | 0.4594 | 0.7611 | 0.7276 | 0.9370 |
 | **KO-platypus2-13B(ours)** | 0.5216 | 0.8236 | 0.8487 | 0.8789 |  
-| **KO-platypus2-7B-ex(ours)** | 0.5821 | 0.7653 | 0.7991 | NaN |  
+| **KO-platypus2-7B-ex(ours)** | 0.5821 | 0.7653 | 0.7991 | 0.8643 |  
 | **KO-platypus2-13B-ex(ours)** | NaN | NaN | NaN | NaN |  
    
 # References
