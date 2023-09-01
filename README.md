@@ -1,8 +1,9 @@
 # KO-Platypus (Ko-Platy🥮)
 ![KO-platypus](./KO_platypus.png)
 **Korean-Open-platypus를 활용하여 llama-2를 fine-tuning한 Korean-Platypus model**  
-**KO-Platypus2-13B🥮:** [![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue)](https://huggingface.co/kyujinpy/KO-Platypus2-13B)   
 **KO-Platypus2-7B-ex:** (Coming soon; private) [![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue)](https://huggingface.co/kyujinpy/KO-Platypus2-7B-ex)   
+**KO-Platypus2-13B🥮:** (Coming soon; private) [![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue)](https://huggingface.co/kyujinpy/KO-Platypus2-13B)   
+**KO-Platypus2-13B-ex🥮:** (Coming soon; private) [![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue)](https://huggingface.co/kyujinpy/KO-Platypus2-13B-ex) 
 
 # Introduction
 - 최근 **llama-2** 등장으로 LLM 분야가 다시 활발해지는 가운데, **Open-Platypus** 데이터셋 활용하여 llama-2를 fine-tuning한 **Platpyus** 모델이 등장하였습니다!🤗
@@ -135,6 +136,7 @@ And, implement below code.
 [ko-lm-evaluation-harness](https://github.com/Beomi/ko-lm-evaluation-harness)   
   
 # TODO
+- [ ] Make KO-Platypus-13B-ex  
 - [ ] Make KO-Platypus-7B-ex  
 - [x] Share huggingface repo
 - [x] Share evaluation results
