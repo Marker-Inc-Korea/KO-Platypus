@@ -158,7 +158,7 @@ And, implement below code.
   
 # TODO
 - [ ] Make KO-Platypus-13B-ex  
-- [ ] Make KO-Platypus-7B-ex  
+- [x] Make KO-Platypus-7B-ex  
 - [x] Share huggingface repo
 - [x] Share evaluation results
 - [x] Share sample code
