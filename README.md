@@ -14,15 +14,11 @@
 - Open-Platypus를 DeepL Pro API를 활용하여 번역을 진행한 후, 약 25,000개의 데이터를 수작업으로 체크하였고 약 144시간 정도 소요하여서 번역 오류를 대부분 고쳤습니다😭😭
 - 이렇게 만들어진 **🥮KOpen-Platypus🥮** 데이터셋을 활용하여 **llama-2** 모델을 fine-tuning 하였습니다.
   
-- 결과적으로 **3가지 버전(13B, 7B-ex, 13B-ex)의 Ko-Platypus2** 모델을 만들게 되었고✌, 성능평가를 위해 Polyglot-Ko와 llama-2-ko 모델과 비교를 진행했습니다.🙂🙃
+- 결과적으로 **2가지 버전(7B-ex, 13B-ex)의 Ko-Platypus2** 모델을 만들게 되었고✌, 성능평가를 위해 Polyglot-Ko와 llama-2-ko 모델과 비교를 진행했습니다.🙂🙃
 - 본 연구는 (주)마커와 (주)미디어그룹사람과숲의 오픈소스 LLM 연구 컨소시엄에서 진행되었습니다.
   
 # Model Description  
-### KO-Platypus2-13B
-- **llama-2-13b를 fine-tuning한 모델**
-- 성능적인 측면에서는, llama-2-ko보다 좋지 못한 성능을 보였고 대부분 낮은 성능을 기록했다.
-- 아마 한국어 vocab 및 token이 부족하여 성능이 낮게 나온 것으로 생각이 든다.
-
+  
 ### KO-Platypus2-7B-ex
 - **llama-2-ko-7B를 fine-tuning한 모델**
 - **🥮KO-Platypus2-7B-ex🥮** 모델은 zero-shot에서 llama-2-ko보다 높은 성능을 보여주었고, BoolQ의 경우에는 Polyglot-Ko보다 높은 성능을 보여주었습니다.✌✌
@@ -102,8 +98,7 @@ And, implement below code.
 | [Polyglot-ko-5.8b](https://huggingface.co/EleutherAI/polyglot-ko-5.8b) | 0.7745 | 0.7676 | 0.7775 | 0.7887 |
 | [Polyglot-ko-12.8b](https://huggingface.co/EleutherAI/polyglot-ko-12.8b) | 0.7937 | 0.8108 | 0.8037 | 0.8369 |
 | [Llama-2-Ko-7b 20B](https://huggingface.co/beomi/llama-2-ko-7b) | 0.7388 | 0.7626 | 0.7808 | 0.7979 |
-| [Llama-2-Ko-7b 40B](https://huggingface.co/beomi/llama-2-ko-7b) | 0.7436 | 0.7927 | 0.8037 | 0.8259 |
-| **KO-platypus2-13B(ours)** | 0.5820 | 0.6269 | 0.6267 | 0.6527 |  
+| [Llama-2-Ko-7b 40B](https://huggingface.co/beomi/llama-2-ko-7b) | 0.7436 | 0.7927 | 0.8037 | 0.8259 |  
 | **KO-platypus2-7B-ex(ours)** | 0.7509 | 0.7899 | 0.8029 | 0.8290 |   
 | **KO-platypus2-13B-ex(ours)** | NaN | NaN | NaN | NaN |  
   
@@ -115,8 +110,7 @@ And, implement below code.
 | [Polyglot-ko-5.8b](https://huggingface.co/EleutherAI/polyglot-ko-5.8b) | 0.5976 | 0.5998 | 0.5979 | 0.6208 |
 | [Polyglot-ko-12.8b](https://huggingface.co/EleutherAI/polyglot-ko-12.8b) | 0.5954 | 0.6306 | 0.6098 | 0.6118 |
 | [Llama-2-Ko-7b 20B](https://huggingface.co/beomi/llama-2-ko-7b) | 0.4518 | 0.4668 | 0.4726 | 0.4828 |
-| [Llama-2-Ko-7b 40B](https://huggingface.co/beomi/llama-2-ko-7b) | 0.4562 | 0.4657 | 0.4698 | 0.4774 |
-| **KO-platypus2-13B(ours)** | 0.3912 | 0.4129 | 0.4144 | 0.4330 |  
+| [Llama-2-Ko-7b 40B](https://huggingface.co/beomi/llama-2-ko-7b) | 0.4562 | 0.4657 | 0.4698 | 0.4774 |   
 | **KO-platypus2-7B-ex(ours)** | 0.4571 | 0.4461 | 0.4371 | 0.4525 |   
 | **KO-platypus2-13B-ex(ours)** | NaN | NaN | NaN | NaN |  
   
@@ -128,8 +122,7 @@ And, implement below code.
 | [Polyglot-ko-5.8b](https://huggingface.co/EleutherAI/polyglot-ko-5.8b) | 0.4356 | 0.5698 | 0.5187 | 0.5236 |
 | [Polyglot-ko-12.8b](https://huggingface.co/EleutherAI/polyglot-ko-12.8b) | 0.4818 | 0.6041 | 0.6289 | 0.6448 |
 | [Llama-2-Ko-7b 20B](https://huggingface.co/beomi/llama-2-ko-7b) | 0.3607 | 0.6797 | 0.6801 | 0.6622 |
-| [Llama-2-Ko-7b 40B](https://huggingface.co/beomi/llama-2-ko-7b) | 0.5786 | 0.6977 | 0.7084 | 0.7144 |
-| **KO-platypus2-13B(ours)** | 0.3539 | 0.7168 | 0.7328 | 0.7172 |  
+| [Llama-2-Ko-7b 40B](https://huggingface.co/beomi/llama-2-ko-7b) | 0.5786 | 0.6977 | 0.7084 | 0.7144 |  
 | **KO-platypus2-7B-ex(ours)** | 0.6028 | 0.6979 | 0.7016 | 0.6988 |  
 | **KO-platypus2-13B-ex(ours)** | NaN | NaN | NaN | NaN |  
   
@@ -141,8 +134,7 @@ And, implement below code.
 | [Polyglot-ko-5.8b](https://huggingface.co/EleutherAI/polyglot-ko-5.8b) | 0.3394 | 0.8841 | 0.8808 | 0.9521 |
 | [Polyglot-ko-12.8b](https://huggingface.co/EleutherAI/polyglot-ko-12.8b) | 0.9117 | 0.9015 | 0.9345 | 0.9723 |
 | [Llama-2-Ko-7b 20B](https://huggingface.co/beomi/llama-2-ko-7b) | 0.4855 | 0.8295 | 0.8711 | 0.8513 |
-| [Llama-2-Ko-7b 40B](https://huggingface.co/beomi/llama-2-ko-7b) | 0.4594 | 0.7611 | 0.7276 | 0.9370 |
-| **KO-platypus2-13B(ours)** | 0.5216 | 0.8236 | 0.8487 | 0.8789 |  
+| [Llama-2-Ko-7b 40B](https://huggingface.co/beomi/llama-2-ko-7b) | 0.4594 | 0.7611 | 0.7276 | 0.9370 |  
 | **KO-platypus2-7B-ex(ours)** | 0.5821 | 0.7653 | 0.7991 | 0.8643 |  
 | **KO-platypus2-13B-ex(ours)** | NaN | NaN | NaN | NaN |  
    
