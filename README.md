@@ -3,7 +3,6 @@
 **Korean-Open-platypus를 활용하여 llama-2를 fine-tuning한 Korean-Platypus model**  
   
 **KO-Platypus2-7B-ex:** (Coming soon; private) [![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue)](https://huggingface.co/kyujinpy/KO-Platypus2-7B-ex)   
-**KO-Platypus2-13B🥮:** (Coming soon; private) [![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue)](https://huggingface.co/kyujinpy/KO-Platypus2-13B)   
 **KO-Platypus2-13B-ex🥮:** (Coming soon; private) [![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue)](https://huggingface.co/kyujinpy/KO-Platypus2-13B-ex)  
 
 # Introduction
@@ -141,7 +140,6 @@ And, implement below code.
 # References
 [Kopen-Platypus🥮](https://huggingface.co/datasets/kyujinpy/KOpen-platypus)   
 [KO-Platypus2-7B-ex🥮](https://huggingface.co/kyujinpy/KO-Platypus2-7B-ex)  
-[KO-Platypus2-13B🥮](https://huggingface.co/kyujinpy/KO-Platypus2-13B)   
 [KO-Platypus2-13B-ex🥮](https://huggingface.co/kyujinpy/KO-Platypus2-13B-ex)  
 [Platypus](https://github.com/arielnlee/Platypus)  
 [llama-2](https://huggingface.co/meta-llama/Llama-2-7b)  
