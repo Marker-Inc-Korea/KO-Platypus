@@ -11,7 +11,7 @@
 - Open-Platypus를 DeepL Pro API를 활용하여 번역을 진행한 후, 약 25,000개의 데이터를 수작업으로 체크하였고 약 144시간 정도 소요하여서 번역 오류를 대부분 고쳤습니다😭😭
 - 이렇게 만들어진 **🥮KOpen-Platypus🥮** 데이터셋을 활용하여 beomi님의 **llama-2-ko** 모델을 fine-tuning 하였습니다.
   
-- 결과적으로 **Ko-Platypus2-ex** 모델을 만들게 되었고✌, 성능평가를 위해 Polyglot-Ko와 llama-2-ko 모델과 비교를 진행했습니다.🙂🙃
+- 결과적으로 **Ko-Platypus2-7b-ex** 모델을 만들게 되었고✌, 성능평가를 위해 Polyglot-Ko와 llama-2-ko 모델과 비교를 진행했습니다.🙂🙃
 - 본 연구는 (주)마커와 (주)미디어그룹사람과숲의 오픈소스 LLM 연구 컨소시엄에서 진행되었습니다.
   
 # Model Description  
