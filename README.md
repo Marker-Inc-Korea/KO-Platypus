@@ -1,9 +1,7 @@
 # KO-Platypus (Ko-Platy🥮)
 ![KO-platypus](./KO_platypus.png)
 **Korean-Open-platypus를 활용하여 llama-2를 fine-tuning한 Korean-Platypus model**  
-  
 **KO-Platypus2-7B-ex:** (Coming soon; private) [![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue)](https://huggingface.co/kyujinpy/KO-Platypus2-7B-ex)   
-**KO-Platypus2-13B-ex🥮:** (Coming soon; private) [![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue)](https://huggingface.co/kyujinpy/KO-Platypus2-13B-ex)  
 
 # Introduction
 - 최근 **llama-2** 등장으로 LLM 분야가 다시 활발해지는 가운데, **Open-Platypus** 데이터셋 활용하여 llama-2를 fine-tuning한 **Platpyus** 모델이 등장하였습니다!🤗
@@ -11,9 +9,9 @@
   
 - 이것을 동기부여로 삼아서, 한국어 기반의 Open-Platypus 데이터셋을 제작한 후, **Ko-Platypus**를 만들기로 계획하였습니다!🙂🙂
 - Open-Platypus를 DeepL Pro API를 활용하여 번역을 진행한 후, 약 25,000개의 데이터를 수작업으로 체크하였고 약 144시간 정도 소요하여서 번역 오류를 대부분 고쳤습니다😭😭
-- 이렇게 만들어진 **🥮KOpen-Platypus🥮** 데이터셋을 활용하여 **llama-2** 모델을 fine-tuning 하였습니다.
+- 이렇게 만들어진 **🥮KOpen-Platypus🥮** 데이터셋을 활용하여 beomi님의 **llama-2-ko** 모델을 fine-tuning 하였습니다.
   
-- 결과적으로 **2가지 버전(7B-ex, 13B-ex)의 Ko-Platypus2** 모델을 만들게 되었고✌, 성능평가를 위해 Polyglot-Ko와 llama-2-ko 모델과 비교를 진행했습니다.🙂🙃
+- 결과적으로 **Ko-Platypus2-ex** 모델을 만들게 되었고✌, 성능평가를 위해 Polyglot-Ko와 llama-2-ko 모델과 비교를 진행했습니다.🙂🙃
 - 본 연구는 (주)마커와 (주)미디어그룹사람과숲의 오픈소스 LLM 연구 컨소시엄에서 진행되었습니다.
   
 # Model Description  
@@ -22,9 +20,6 @@
 - **llama-2-ko-7B를 fine-tuning한 모델**
 - **🥮KO-Platypus2-7B-ex🥮** 모델은 zero-shot에서 llama-2-ko보다 높은 성능을 보여주었고, BoolQ의 경우에는 Polyglot-Ko보다 높은 성능을 보여주었습니다.✌✌
   
-### KO-Platypus2-13B-ex
-- **llama-2-13B vocab을 korean vocab으로 expansion한 후 fine-tuning한 모델**
-- (coming soon...)
   
 # Quick start
 ```python
@@ -99,7 +94,6 @@ And, implement below code.
 | [Llama-2-Ko-7b 20B](https://huggingface.co/beomi/llama-2-ko-7b) | 0.7388 | 0.7626 | 0.7808 | 0.7979 |
 | [Llama-2-Ko-7b 40B](https://huggingface.co/beomi/llama-2-ko-7b) | 0.7436 | 0.7927 | 0.8037 | 0.8259 |  
 | **KO-platypus2-7B-ex(ours)** | 0.7509 | 0.7899 | 0.8029 | 0.8290 |   
-| **KO-platypus2-13B-ex(ours)** | NaN | NaN | NaN | NaN |  
   
 ### HellaSwag (F1)
 | Model | 0-shot | 5-shot | 10-shot | 50-shot |
@@ -111,7 +105,6 @@ And, implement below code.
 | [Llama-2-Ko-7b 20B](https://huggingface.co/beomi/llama-2-ko-7b) | 0.4518 | 0.4668 | 0.4726 | 0.4828 |
 | [Llama-2-Ko-7b 40B](https://huggingface.co/beomi/llama-2-ko-7b) | 0.4562 | 0.4657 | 0.4698 | 0.4774 |   
 | **KO-platypus2-7B-ex(ours)** | 0.4571 | 0.4461 | 0.4371 | 0.4525 |   
-| **KO-platypus2-13B-ex(ours)** | NaN | NaN | NaN | NaN |  
   
 ### BoolQ (F1)
 | Model | 0-shot | 5-shot | 10-shot | 50-shot |
@@ -123,7 +116,6 @@ And, implement below code.
 | [Llama-2-Ko-7b 20B](https://huggingface.co/beomi/llama-2-ko-7b) | 0.3607 | 0.6797 | 0.6801 | 0.6622 |
 | [Llama-2-Ko-7b 40B](https://huggingface.co/beomi/llama-2-ko-7b) | 0.5786 | 0.6977 | 0.7084 | 0.7144 |  
 | **KO-platypus2-7B-ex(ours)** | 0.6028 | 0.6979 | 0.7016 | 0.6988 |  
-| **KO-platypus2-13B-ex(ours)** | NaN | NaN | NaN | NaN |  
   
 ### SentiNeg (F1)
 | Model | 0-shot | 5-shot | 10-shot | 50-shot |
@@ -135,7 +127,6 @@ And, implement below code.
 | [Llama-2-Ko-7b 20B](https://huggingface.co/beomi/llama-2-ko-7b) | 0.4855 | 0.8295 | 0.8711 | 0.8513 |
 | [Llama-2-Ko-7b 40B](https://huggingface.co/beomi/llama-2-ko-7b) | 0.4594 | 0.7611 | 0.7276 | 0.9370 |  
 | **KO-platypus2-7B-ex(ours)** | 0.5821 | 0.7653 | 0.7991 | 0.8643 |  
-| **KO-platypus2-13B-ex(ours)** | NaN | NaN | NaN | NaN |  
    
 # References
 [Kopen-Platypus🥮](https://huggingface.co/datasets/kyujinpy/KOpen-platypus)   
@@ -147,7 +138,6 @@ And, implement below code.
 [ko-lm-evaluation-harness](https://github.com/Beomi/ko-lm-evaluation-harness)   
   
 # TODO
-- [ ] Make KO-Platypus-13B-ex  
 - [x] Make KO-Platypus-7B-ex  
 - [x] Share huggingface repo
 - [x] Share evaluation results
