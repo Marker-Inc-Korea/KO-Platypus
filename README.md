@@ -1,6 +1,7 @@
 # KO-Platypus (Ko-Platy🥮)
 ![KO-platypus](./KO_platypus.png)
-**Korean-Open-platypus를 활용하여 llama-2를 fine-tuning한 Korean-Platypus model**  
+**Korean-Open-platypus를 활용하여 llama-2-ko를 fine-tuning한 Korean-Platypus model**  
+  
 **KO-Platypus2-7B-ex🥮:** [![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue)](https://huggingface.co/kyujinpy/KO-Platypus2-7B-ex)   
 **KOpen-Platypus🥮:** [![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue)](https://huggingface.co/datasets/kyujinpy/KOpen-platypus)   
 
