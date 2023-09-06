@@ -45,7 +45,7 @@ ko_platypus_tokenizer = AutoTokenizer.from_pretrained(repo)
   
 >*Note: You must access the original [llama-2](https://huggingface.co/meta-llama/Llama-2-7b).      
 >**Note: You must generate your huggingface token. And after login, you can implement this [colab](https://colab.research.google.com/drive/1qtGQroKPwGFA1L9b3WGyHC84NDIEs6s_?usp=sharing).  
->***Note: If you run Platypus-13B in colab, you must use A100 GPU. Training time is about 160 ~ 200 hours.  
+>***Note: If you run Platypus in colab, you must use A100 GPU.  
 
 # Datasets
 ```python
