@@ -25,11 +25,11 @@
   
 # Quick start
 ```python
-### KO-Platypus
+### KO-Platy
 from transformers import AutoModelForCausalLM, AutoTokenizer
 import torch
 
-repo = "kyujinpy/KO-Platypus2-13B"
+repo = "kyujinpy/KO-Platypus2-7B-ex"
 ko_platypus = AutoModelForCausalLM.from_pretrained(
         repo,
         return_dict=True,
@@ -79,11 +79,11 @@ And, implement below code.
 ```
 # In colab,
 !python main.py \
-    --model gpt2 \
-    --model_args pretrained=kyujinpy/KO-Platypus2-13B \
+    --model gpt2 \ 
+    --model_args pretrained=..your_model_name.. \
     --tasks kobest_hellaswag,kobest_copa,kobest_boolq,kobest_sentineg \
     --device cuda:0 \
-    --num_fewshot 0
+    --num_fewshot 0 # 5, 10, 25, ...
 ```
   
 ### COPA (F1)
