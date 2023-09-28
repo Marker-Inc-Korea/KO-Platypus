@@ -22,6 +22,8 @@
 - **llama-2-ko-7B를 fine-tuning한 모델**
 - **🥮KO-Platypus2-7B-ex🥮** 모델은 zero-shot에서 llama-2-ko보다 높은 성능을 보여주었고, BoolQ의 경우에는 Polyglot-Ko보다 높은 성능을 보여주었습니다.✌✌
   
+# News
+[9/29 ~ ] - [KO-LLM leaderboard](https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard) 1등 달성!!  
   
 # Quick start
 ```python
