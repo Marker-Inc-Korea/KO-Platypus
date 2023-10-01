@@ -23,7 +23,12 @@
 - **🥮KO-Platypus2-7B-ex🥮** 모델은 zero-shot에서 llama-2-ko보다 높은 성능을 보여주었고, BoolQ의 경우에는 Polyglot-Ko보다 높은 성능을 보여주었습니다.✌✌
   
 # News
-**[9/29 ~ ]:** [KO-LLM leaderboard🤗](https://huggingface.co/spaces/upstage/open-ko-llm-leaderboard) 1등 달성!!  
+- **[10/02]:** Polyglot-ko를 기반으로 하여 [Poly-platypus-ko-12.8b](https://huggingface.co/MarkrAI/kyujin-Poly-platypus-ko-12.8b) Model 제작완료.  
+   
+- **[10/01]:** [KoT-platypus2-7B](https://huggingface.co/kyujinpy/KoT-platypus2-7B) KO-LLM 리더보드 1등.  
+  
+- **[9/29]:** [KO-LLM leaderboard🤗](https://huggingface.co/spaces/upstage/open-ko-llm-leaderboard) 1등 달성. 
+  - **[10/01]:** KO-LLM 리더보드 2등 달성.  
   
 # Quick start
 ```python
