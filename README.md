@@ -24,7 +24,7 @@
   
 # News
 - 2023.10.02
-  - Polyglot-ko를 기반으로 하여 [Poly-platypus-ko-12.8b🤗](https://huggingface.co/MarkrAI/kyujin-Poly-platypus-ko-12.8b) Model 제작완료.
+  - Polyglot-ko를 기반으로 하여 [Poly-platypus-ko-12.8b🤗](https://github.com/KyujinHan/Poly-platypus-ko) Model 제작완료.  
   - KO-LLM 성능평가 진행 예정... 
 
 - 2023.10.01
