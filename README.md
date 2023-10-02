@@ -32,7 +32,7 @@
   - HuggingFace KO-LLM 리더보드 1등 달성. 
   
 - 2023.09.29
-  - Ko-platypus2 Model [KO-LLM leaderboard🤗](https://huggingface.co/spaces/upstage/open-ko-llm-leaderboard)에서 --1등-- 달성. 
+  - Ko-platypus2 Model [KO-LLM leaderboard🤗](https://huggingface.co/spaces/upstage/open-ko-llm-leaderboard)에서 ~~1등~~ 달성.
    
 # Quick start
 ```python
