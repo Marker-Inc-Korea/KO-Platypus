@@ -25,7 +25,7 @@
 # News
 - 2023.10.02
   - Polyglot-ko를 기반으로 하여 [Poly-platypus-ko-12.8b🤗](https://github.com/KyujinHan/Poly-platypus-ko) Model 제작 완료.  
-  - KO-LLM 성능평가 진행 예정... 
+  - HuggingFace KO-LLM 리더보드 4등 달성. 
 
 - 2023.10.01
   - CoT방식으로 re-fine-tuning한 [KoT-platypus2-7B🤗](https://github.com/KyujinHan/KoT-platypus) Model 제작 완료. 
