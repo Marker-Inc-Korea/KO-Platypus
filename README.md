@@ -1,10 +1,17 @@
 # KO-Platypus (Ko-Platy🥮)
-![KO-platypus](./KO_platypus.png)
+![KO-platypus](./KO_platypus.png
+<div align='center'>
 **Korean-Open-platypus를 활용하여 llama-2-ko를 fine-tuning한 Korean-Platypus model**  
   
 **KO-Platypus2-7B-ex🥮:** [![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue)](https://huggingface.co/kyujinpy/KO-Platypus2-7B-ex)   
 **KOpen-Platypus🥮:** [![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue)](https://huggingface.co/datasets/kyujinpy/KOpen-platypus)   
-
+  
+KoT-platpus: ![im](https://img.shields.io/badge/%F0%9F%A4%97_Ranked_%231-Open_Ko_LLM_Leaderboard-orange?link=https%3A%2F%2Fhuggingface.co%2Fspaces%2Fupstage%2Fopen-ko-llm-leaderboard) 
+Ko-platypus: ![im](https://img.shields.io/badge/%F0%9F%A4%97_Ranked_%232-Open_Ko_LLM_Leaderboard-orange?link=https%3A%2F%2Fhuggingface.co%2Fspaces%2Fupstage%2Fopen-ko-llm-leaderboard) 
+Poly-platypus-ko: ![im](https://img.shields.io/badge/%F0%9F%A4%97_Ranked_%234-Open_Ko_LLM_Leaderboard-orange?link=https%3A%2F%2Fhuggingface.co%2Fspaces%2Fupstage%2Fopen-ko-llm-leaderboard) 
+---
+</div>
+  
 # Introduction
 - 최근 **llama-2** 등장으로 LLM 분야가 다시 활발해지는 가운데, **Open-Platypus** 데이터셋 활용하여 llama-2를 fine-tuning한 **Platpyus** 모델이 등장하였습니다!🤗
 - 하지만 Open-Platypus 데이터셋은 대부분 영어로만 구성되어 있기 때문에 한국어에 접목하기에는 한계가 있었습니다.
