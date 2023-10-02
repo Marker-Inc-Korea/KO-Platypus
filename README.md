@@ -1,5 +1,5 @@
 # KO-Platypus (Ko-Platy🥮)
-![KO-platypus](./KO_platypus.png
+![KO-platypus](./KO_platypus.png)
 <div align='center'>
 **Korean-Open-platypus를 활용하여 llama-2-ko를 fine-tuning한 Korean-Platypus model**  
   
