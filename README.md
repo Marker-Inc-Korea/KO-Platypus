@@ -4,9 +4,9 @@
 <strong>Korean-Open-platypus 데이터셋을 활용하여 llama-2-ko를 fine-tuning한 Korean-Platypus model</strong> 
 <br></br>
   
-**KoT-platypus2🥮** [![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue)](https://huggingface.co/kyujinpy/KoT-platypus2-7B) ![im](https://img.shields.io/badge/%F0%9F%A4%97_Ranked_%231-Open_Ko_LLM_Leaderboard-orange?link=https%3A%2F%2Fhuggingface.co%2Fspaces%2Fupstage%2Fopen-ko-llm-leaderboard)   
-**KO-Platypus2🥮:** [![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue)](https://huggingface.co/kyujinpy/KO-Platypus2-7B-ex) ![im](https://img.shields.io/badge/%F0%9F%A4%97_Ranked_%232-Open_Ko_LLM_Leaderboard-orange?link=https%3A%2F%2Fhuggingface.co%2Fspaces%2Fupstage%2Fopen-ko-llm-leaderboard)   
-**Poly-platypus-ko🥮:** [![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue)](https://huggingface.co/MarkrAI/kyujin-Poly-platypus-ko-12.8b) ![im](https://img.shields.io/badge/%F0%9F%A4%97_Ranked_%234-Open_Ko_LLM_Leaderboard-orange?link=https%3A%2F%2Fhuggingface.co%2Fspaces%2Fupstage%2Fopen-ko-llm-leaderboard)   
+**KoT-platypus2🥮** [![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue)](https://huggingface.co/kyujinpy/KoT-platypus2-7B) ![im](https://img.shields.io/badge/%F0%9F%A4%97_Ranked_%233-Open_Ko_LLM_Leaderboard-orange?link=https%3A%2F%2Fhuggingface.co%2Fspaces%2Fupstage%2Fopen-ko-llm-leaderboard)   
+**KO-Platypus2🥮:** [![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue)](https://huggingface.co/kyujinpy/KO-Platypus2-7B-ex) ![im](https://img.shields.io/badge/%F0%9F%A4%97_Ranked_%234-Open_Ko_LLM_Leaderboard-orange?link=https%3A%2F%2Fhuggingface.co%2Fspaces%2Fupstage%2Fopen-ko-llm-leaderboard)   
+**Poly-platypus-ko🥮:** [![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue)](https://huggingface.co/MarkrAI/kyujin-Poly-platypus-ko-12.8b)  
   
 **KOpen-Platypus🥮:** [![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue)](https://huggingface.co/datasets/kyujinpy/KOpen-platypus)   
   
@@ -33,14 +33,14 @@
 # News
 - 2023.10.02
   - Polyglot-ko를 기반으로 하여 [Poly-platypus-ko-12.8b🤗](https://github.com/KyujinHan/Poly-platypus-ko) Model 제작 완료.  
-  - HuggingFace KO-LLM 리더보드 4등 달성.
+  - HuggingFace KO-LLM 리더보드 ~~4등~~달성.
 
 - 2023.10.01
   - CoT방식으로 re-fine-tuning한 [KoT-platypus2-7B🤗](https://github.com/KyujinHan/KoT-platypus) Model 제작 완료. 
-  - HuggingFace KO-LLM 리더보드 1등 달성. 
+  - HuggingFace KO-LLM 리더보드 3등(~~1등~~) 달성. 
   
 - 2023.09.29
-  - Ko-platypus2 Model [KO-LLM leaderboard🤗](https://huggingface.co/spaces/upstage/open-ko-llm-leaderboard)에서 2등(~~1등~~) 달성.
+  - Ko-platypus2 Model [KO-LLM leaderboard🤗](https://huggingface.co/spaces/upstage/open-ko-llm-leaderboard)에서 ~~2등~~(~~1등~~) 달성.
    
 # Quick start
 ```python
