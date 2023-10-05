@@ -42,7 +42,7 @@
 
 - 2023.10.01
   - CoT방식으로 re-fine-tuning한 [KoT-platypus2-7B🤗](https://github.com/KyujinHan/KoT-platypus) Model 제작 완료. 
-  - HuggingFace KO-LLM 리더보드 3등(~~1등~~) 달성. 
+  - HuggingFace KO-LLM 리더보드 4등(~~3등~~)(~~1등~~) 달성. 
   
 - 2023.09.29
   - Ko-platypus2 Model [KO-LLM leaderboard🤗](https://huggingface.co/spaces/upstage/open-ko-llm-leaderboard)에서 ~~2등~~(~~1등~~) 달성.
