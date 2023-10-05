@@ -49,7 +49,7 @@
   - HuggingFace KO-LLM 리더보드 4등(~~1등~~) 달성. 
   
 - 2023.09.29
-  - Ko-platypus2-7B Model [KO-LLM leaderboard🤗](https://huggingface.co/spaces/upstage/open-ko-llm-leaderboard)에서 ~~2등~~(~~1등~~) 달성.
+  - [Ko-platypus2-7B🤗](https://huggingface.co/kyujinpy/KO-Platypus2-7B-ex) Model [KO-LLM leaderboard🤗](https://huggingface.co/spaces/upstage/open-ko-llm-leaderboard)에서 ~~2등~~(~~1등~~) 달성.
    
 # Quick start
 ```python
