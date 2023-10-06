@@ -28,6 +28,7 @@
 
 # Model BenckMark(KO-LLM)  
 | Model | Average |Ko-ARC | Ko-HellaSwag | Ko-MMLU | Ko-TruthfulQA | Ko-CommonGen V2 | Dataset | Base_model |  
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |  
 | [KO-platypus2-13B](https://huggingface.co/kyujinpy/KO-Platypus2-13B) | NaN | NaN | NaN | NaN | NaN | NaN | [KOpen-platyus](https://huggingface.co/datasets/kyujinpy/KOpen-platypus) | ko-en-llama2-13b |  
 | [CoTy-platypus-ko-12.8b](https://huggingface.co/MarkrAI/kyujin-CoTy-platypus-ko-12.8b) | 46.44 | 34.98 | 49.11 | 25.68 | 37.59 | 84.86 | [KoCoT](https://huggingface.co/datasets/kyujinpy/KoCoT_2000) | Poly-playtypus-ko-12.8b |  
 | [KoT-platypus2-7B](https://huggingface.co/kyujinpy/KoT-platypus2-7B) | 45.62 | 38.05 | 49.63 | 34.68 | 37.69 | 68.08 | [KoCoT](https://huggingface.co/datasets/kyujinpy/KoCoT_2000) | KO-platypus2-7B |  
