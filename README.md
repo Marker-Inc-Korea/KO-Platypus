@@ -4,9 +4,10 @@
 <strong>Korean-Open-platypus 데이터셋을 활용하여 llama-2-ko를 fine-tuning한 Korean-Platypus model</strong> 
 <br></br>
 
-**CoTy-platypus-ko🥮:** [![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue)](https://huggingface.co/MarkrAI/kyujin-CoTy-platypus-ko-12.8b) ![im](https://img.shields.io/badge/%F0%9F%A4%97_Ranked_%232-Open_Ko_LLM_Leaderboard-orange?link=https%3A%2F%2Fhuggingface.co%2Fspaces%2Fupstage%2Fopen-ko-llm-leaderboard)    
-**KoT-platypus2🥮:** [![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue)](https://huggingface.co/kyujinpy/KoT-platypus2-7B) ![im](https://img.shields.io/badge/%F0%9F%A4%97_Ranked_%234-Open_Ko_LLM_Leaderboard-orange?link=https%3A%2F%2Fhuggingface.co%2Fspaces%2Fupstage%2Fopen-ko-llm-leaderboard)   
-**KO-Platypus2🥮:** [![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue)](https://huggingface.co/kyujinpy/KO-Platypus2-7B-ex)  
+**KO-Platypus2-13B🥮:** [![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue)](https://huggingface.co/kyujinpy/KO-Platypus2-13B) ![im](https://img.shields.io/badge/%F0%9F%A4%97_Ranked_%231-Open_Ko_LLM_Leaderboard-orange?link=https%3A%2F%2Fhuggingface.co%2Fspaces%2Fupstage%2Fopen-ko-llm-leaderboard)    
+**CoTy-platypus-ko🥮:** [![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue)](https://huggingface.co/MarkrAI/kyujin-CoTy-platypus-ko-12.8b) ![im](https://img.shields.io/badge/%F0%9F%A4%97_Ranked_%233-Open_Ko_LLM_Leaderboard-orange?link=https%3A%2F%2Fhuggingface.co%2Fspaces%2Fupstage%2Fopen-ko-llm-leaderboard)    
+**KoT-platypus2🥮:** [![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue)](https://huggingface.co/kyujinpy/KoT-platypus2-7B) ![im](https://img.shields.io/badge/%F0%9F%A4%97_Ranked_%235-Open_Ko_LLM_Leaderboard-orange?link=https%3A%2F%2Fhuggingface.co%2Fspaces%2Fupstage%2Fopen-ko-llm-leaderboard)   
+**KO-Platypus2-7B🥮:** [![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue)](https://huggingface.co/kyujinpy/KO-Platypus2-7B-ex)  
 **Poly-platypus-ko🥮:** [![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue)](https://huggingface.co/MarkrAI/kyujin-Poly-platypus-ko-12.8b)  
   
 **KOpen-Platypus🥮:** [![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue)](https://huggingface.co/datasets/kyujinpy/KOpen-platypus)   
@@ -24,7 +25,15 @@
   
 - 결과적으로 **Ko-Platypus2-7B-EX** 모델을 만들게 되었고✌, 성능평가를 위해 Polyglot-Ko와 llama-2-ko 모델과 비교를 진행했습니다.🙂🙃
 - 본 연구는 (주)마커와 (주)미디어그룹사람과숲의 오픈소스 LLM 연구 컨소시엄에서 진행되었습니다.
-  
+
+# Model BenckMark(KO-LLM)
+| Model | Average |Ko-ARC | Ko-HellaSwag | Ko-MMLU | Ko-TruthfulQA | Ko-CommonGen V2 | Dataset | Base_model|
+| [CoTy-platypus-ko-12.8b](https://huggingface.co/MarkrAI/kyujin-CoTy-platypus-ko-12.8b) | 46.44 | 34.98 | 49.11 | 25.68 | 37.59 | 84.86 | [KoCoT](https://huggingface.co/datasets/kyujinpy/KoCoT_2000) | Poly-playtypus-ko-12.8b |
+| [KoT-platypus2-7B](https://huggingface.co/kyujinpy/KoT-platypus2-7B) | 45.62 | 38.05 | 49.63 | 34.68 | 37.69 | 68.08 | [KoCoT](https://huggingface.co/datasets/kyujinpy/KoCoT_2000) | KO-platypus2-7B|
+| [KO-Platypus2-7B](https://huggingface.co/kyujinpy/KO-Platypus2-7B-ex) | NaN | NaN | NaN | NaN | NaN | NaN | [KOpen-platyus](https://huggingface.co/datasets/kyujinpy/KOpen-platypus) | llama-2-ko-7B |
+| [Poly-platypus-ko-12.8b](https://huggingface.co/MarkrAI/kyujin-Poly-platypus-ko-12.8b) | NaN | NaN | NaN | NaN | NaN | NaN | [KOpen-platyus](https://huggingface.co/datasets/kyujinpy/KOpen-platypus) | Polyglot-ko-12.8b|
+| [CoT-llama-2k-7b](https://huggingface.co/kyujinpy/CoT-llama-2k-7b) | NaN | NaN | NaN | NaN | NaN | NaN | [KoCoT](https://huggingface.co/datasets/kyujinpy/KoCoT_2000) | llama-2-ko-7B |
+   
 # Model Description  
   
 ### KO-Platypus2-7B-ex
@@ -34,11 +43,11 @@
 # News
 - 2023.10.05
    - [ko-en-llama2-13b](https://huggingface.co/hyunseoki/ko-en-llama2-13b)를 기반으로 한 [Ko-platypus2-13B🤗](https://huggingface.co/kyujinpy/KO-Platypus2-13B) Model 제작 완료.  
-   - HuggingFace KO-LLM 리더보드 올리는 중...
+   - HuggingFace KO-LLM 1둥 달성.
 
 - 2023.10.04
   - CoT방식으로 Poly-platypus-ko를 fine-tuning한 [CoTy-platypus-ko-12.8b🤗](https://github.com/KyujinHan/Poly-platypus-ko) Model 제작 완료.
-  - HuggingFace KO-LLM 2등 달성.
+  - HuggingFace KO-LLM 3등(~~2등~~) 달성.
 
 - 2023.10.02
   - Polyglot-ko를 기반으로 하여 [Poly-platypus-ko-12.8b🤗](https://github.com/KyujinHan/Poly-platypus-ko) Model 제작 완료.  
@@ -46,7 +55,7 @@
 
 - 2023.10.01
   - CoT방식으로 re-fine-tuning한 [KoT-platypus2-7B🤗](https://github.com/KyujinHan/KoT-platypus) Model 제작 완료. 
-  - HuggingFace KO-LLM 리더보드 4등(~~1등~~) 달성. 
+  - HuggingFace KO-LLM 리더보드 5등(~~1등~~) 달성. 
   
 - 2023.09.29
   - [Ko-platypus2-7B🤗](https://huggingface.co/kyujinpy/KO-Platypus2-7B-ex) Model [KO-LLM leaderboard🤗](https://huggingface.co/spaces/upstage/open-ko-llm-leaderboard)에서 ~~2등~~(~~1등~~) 달성.
@@ -101,7 +110,7 @@ I focus about **5 type errors.**
   
 >*Note: If you want to see more detail example, visit [huggingface](https://huggingface.co/datasets/kyujinpy/KOpen-platypus) or [Ko-Platypus-blog](https://kyujinpy.tistory.com/101).  
   
-# Performance
+# Performance(Old_version)
 When I evaluated Ko-Platy, I used this [repo](https://github.com/Beomi/ko-lm-evaluation-harness).  
 And, implement below code.
 ```
@@ -165,6 +174,7 @@ And, implement below code.
 [Platypus](https://github.com/arielnlee/Platypus)  
 [llama-2](https://huggingface.co/meta-llama/Llama-2-7b)  
 [llama-2-ko](https://huggingface.co/beomi/llama-2-ko-7b)  
+[ko-en-llama2](https://huggingface.co/hyunseoki/ko-en-llama2-13b)  
 [ko-lm-evaluation-harness](https://github.com/Beomi/ko-lm-evaluation-harness)   
   
 # TODO
