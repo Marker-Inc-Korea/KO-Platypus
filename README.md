@@ -27,14 +27,14 @@
 - 본 연구는 (주)마커와 (주)미디어그룹사람과숲의 오픈소스 LLM 연구 컨소시엄에서 진행되었습니다.
 
 # Model BenckMark(KO-LLM)  
-| Model | Average |Ko-ARC | Ko-HellaSwag | Ko-MMLU | Ko-TruthfulQA | Ko-CommonGen V2 | Dataset | Base_model |  
+| Model | Average | Ko-ARC | Ko-HellaSwag | Ko-MMLU | Ko-TruthfulQA | Ko-CommonGen V2 | Dataset | Base_model |  
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |  
-| [KO-platypus2-13B](https://huggingface.co/kyujinpy/KO-Platypus2-13B) | NaN | NaN | NaN | NaN | NaN | NaN | [KOpen-platyus](https://huggingface.co/datasets/kyujinpy/KOpen-platypus) | ko-en-llama2-13b |  
+| [KO-platypus2-13B](https://huggingface.co/kyujinpy/KO-Platypus2-13B) | 47.90 | 44.20 | 54.31 | 42.47 | 44.41 | 54.11 | [KOpen-platyus](https://huggingface.co/datasets/kyujinpy/KOpen-platypus) | ko-en-llama2-13b |  
 | [CoTy-platypus-ko-12.8b](https://huggingface.co/MarkrAI/kyujin-CoTy-platypus-ko-12.8b) | 46.44 | 34.98 | 49.11 | 25.68 | 37.59 | 84.86 | [KoCoT](https://huggingface.co/datasets/kyujinpy/KoCoT_2000) | Poly-playtypus-ko-12.8b |  
 | [KoT-platypus2-7B](https://huggingface.co/kyujinpy/KoT-platypus2-7B) | 45.62 | 38.05 | 49.63 | 34.68 | 37.69 | 68.08 | [KoCoT](https://huggingface.co/datasets/kyujinpy/KoCoT_2000) | KO-platypus2-7B |  
-| [KO-Platypus2-7B](https://huggingface.co/kyujinpy/KO-Platypus2-7B-ex) | NaN | NaN | NaN | NaN | NaN | NaN | [KOpen-platyus](https://huggingface.co/datasets/kyujinpy/KOpen-platypus) | llama-2-ko-7B |  
-| [Poly-platypus-ko-12.8b](https://huggingface.co/MarkrAI/kyujin-Poly-platypus-ko-12.8b) | NaN | NaN | NaN | NaN | NaN | NaN | [KOpen-platyus](https://huggingface.co/datasets/kyujinpy/KOpen-platypus) | Polyglot-ko-12.8b |  
-| [CoT-llama-2k-7b](https://huggingface.co/kyujinpy/CoT-llama-2k-7b) | NaN | NaN | NaN | NaN | NaN | NaN | [KoCoT](https://huggingface.co/datasets/kyujinpy/KoCoT_2000) | llama-2-ko-7B |  
+| [KO-Platypus2-7B](https://huggingface.co/kyujinpy/KO-Platypus2-7B-ex) | 45.41 | 39.08 | 50.86 | 34.60 | 37.94 | 64.55 | [KOpen-platyus](https://huggingface.co/datasets/kyujinpy/KOpen-platypus) | llama-2-ko-7B |  
+| [Poly-platypus-ko-12.8b](https://huggingface.co/MarkrAI/kyujin-Poly-platypus-ko-12.8b) | 44.95 | 35.15 | 50.39 | 25.68 | 38.74 | 74.88 | [KOpen-platyus](https://huggingface.co/datasets/kyujinpy/KOpen-platypus) | Polyglot-ko-12.8b |  
+| [CoT-llama-2k-7b](https://huggingface.co/kyujinpy/CoT-llama-2k-7b) | 41.54 | 36.77 | 49.38 | 29.80 | 37.76 | 53.99 | [KoCoT](https://huggingface.co/datasets/kyujinpy/KoCoT_2000) | llama-2-ko-7B |  
   
   
 # Model Description  
