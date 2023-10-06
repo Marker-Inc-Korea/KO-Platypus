@@ -173,7 +173,7 @@ And, implement below code.
 # References
 [Kopen-Platypus🥮](https://huggingface.co/datasets/kyujinpy/KOpen-platypus)   
 [KO-Platypus2-7B-ex🥮](https://huggingface.co/kyujinpy/KO-Platypus2-7B-ex)  
-[KO-Platypus2-13B; Not good](https://huggingface.co/kyujinpy/KO-Platypus2-13B)  
+[KO-Platypus2-13B🥮](https://huggingface.co/kyujinpy/KO-Platypus2-13B)  
 [Platypus](https://github.com/arielnlee/Platypus)  
 [llama-2](https://huggingface.co/meta-llama/Llama-2-7b)  
 [llama-2-ko](https://huggingface.co/beomi/llama-2-ko-7b)  
