@@ -35,8 +35,8 @@
 | [KO-Platypus2-7B](https://huggingface.co/kyujinpy/KO-Platypus2-7B-ex) | NaN | NaN | NaN | NaN | NaN | NaN | [KOpen-platyus](https://huggingface.co/datasets/kyujinpy/KOpen-platypus) | llama-2-ko-7B |  
 | [Poly-platypus-ko-12.8b](https://huggingface.co/MarkrAI/kyujin-Poly-platypus-ko-12.8b) | NaN | NaN | NaN | NaN | NaN | NaN | [KOpen-platyus](https://huggingface.co/datasets/kyujinpy/KOpen-platypus) | Polyglot-ko-12.8b |  
 | [CoT-llama-2k-7b](https://huggingface.co/kyujinpy/CoT-llama-2k-7b) | NaN | NaN | NaN | NaN | NaN | NaN | [KoCoT](https://huggingface.co/datasets/kyujinpy/KoCoT_2000) | llama-2-ko-7B |  
-
-    
+  
+  
 # Model Description  
   
 ### KO-Platypus2-7B-ex
