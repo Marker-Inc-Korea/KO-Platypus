@@ -4,8 +4,9 @@
 <strong>Korean-Open-platypus 데이터셋을 활용하여 llama-2-ko를 fine-tuning한 Korean-Platypus model</strong> 
 <br></br>
 
-**KO-Platypus2-13B🥮:** [![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue)](https://huggingface.co/kyujinpy/KO-Platypus2-13B) ![im](https://img.shields.io/badge/%F0%9F%A4%97_Ranked_%231-Open_Ko_LLM_Leaderboard-orange?link=https%3A%2F%2Fhuggingface.co%2Fspaces%2Fupstage%2Fopen-ko-llm-leaderboard)    
-**CoTy-platypus-ko🥮:** [![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue)](https://huggingface.co/MarkrAI/kyujin-CoTy-platypus-ko-12.8b) ![im](https://img.shields.io/badge/%F0%9F%A4%97_Ranked_%233-Open_Ko_LLM_Leaderboard-orange?link=https%3A%2F%2Fhuggingface.co%2Fspaces%2Fupstage%2Fopen-ko-llm-leaderboard)    
+**KoT-Platypus2-13B🥮:** [![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue)](https://huggingface.co/kyujinpy/KoT-platypus2-13B) ![im](https://img.shields.io/badge/%F0%9F%A4%97_Ranked_%231-Open_Ko_LLM_Leaderboard-orange?link=https%3A%2F%2Fhuggingface.co%2Fspaces%2Fupstage%2Fopen-ko-llm-leaderboard)    
+**KO-Platypus2-13B🥮:** [![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue)](https://huggingface.co/kyujinpy/KO-Platypus2-13B) ![im](https://img.shields.io/badge/%F0%9F%A4%97_Ranked_%232-Open_Ko_LLM_Leaderboard-orange?link=https%3A%2F%2Fhuggingface.co%2Fspaces%2Fupstage%2Fopen-ko-llm-leaderboard)    
+**CoTy-platypus-ko🥮:** [![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue)](https://huggingface.co/MarkrAI/kyujin-CoTy-platypus-ko-12.8b) ![im](https://img.shields.io/badge/%F0%9F%A4%97_Ranked_%234-Open_Ko_LLM_Leaderboard-orange?link=https%3A%2F%2Fhuggingface.co%2Fspaces%2Fupstage%2Fopen-ko-llm-leaderboard)    
 **KoT-platypus2-7B🥮:** [![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue)](https://huggingface.co/kyujinpy/KoT-platypus2-7B)  
 **KO-Platypus2-7B🥮:** [![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue)](https://huggingface.co/kyujinpy/KO-Platypus2-7B-ex)  
 **Poly-platypus-ko🥮:** [![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue)](https://huggingface.co/MarkrAI/kyujin-Poly-platypus-ko-12.8b)  
@@ -29,6 +30,7 @@
 # Model BenchMark(KO-LLM)  
 | Model | Average | Ko-ARC | Ko-HellaSwag | Ko-MMLU | Ko-TruthfulQA | Ko-CommonGen V2 | Dataset | Base_model |  
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |  
+| [KoT-Platypus2-13B](https://huggingface.co/kyujinpy/KoT-platypus2-13B) | 49.55 | 43.69 | 53.05 | 42.29 | 43.34 | 65.38 |  
 | [KO-platypus2-13B](https://huggingface.co/kyujinpy/KO-Platypus2-13B) | 47.90 | 44.20 | 54.31 | 42.47 | 44.41 | 54.11 | [KOpen-platyus](https://huggingface.co/datasets/kyujinpy/KOpen-platypus) | ko-en-llama2-13b |  
 | [CoTy-platypus-ko-12.8b](https://huggingface.co/MarkrAI/kyujin-CoTy-platypus-ko-12.8b) | 46.44 | 34.98 | 49.11 | 25.68 | 37.59 | 84.86 | [KoCoT](https://huggingface.co/datasets/kyujinpy/KoCoT_2000) | Poly-playtypus-ko-12.8b |  
 | [KoT-platypus2-7B](https://huggingface.co/kyujinpy/KoT-platypus2-7B) | 45.62 | 38.05 | 49.63 | 34.68 | 37.69 | 68.08 | [KoCoT](https://huggingface.co/datasets/kyujinpy/KoCoT_2000) | KO-platypus2-7B |  
@@ -46,15 +48,15 @@
 # News
 - 2023.10.08
    - CoT 방식으로 re-fine-tuning한 [KoT-platypus-13B🤗](https://huggingface.co/kyujinpy/KoT-platypus2-13B) Model 제작 완료.  
-   - HuggingFace KO-LLM 추후 올릴 예정...  
+   - HuggingFace KO-LLM 1등 달성.
 
 - 2023.10.05
    - [ko-en-llama2-13b](https://huggingface.co/hyunseoki/ko-en-llama2-13b)를 기반으로 한 [Ko-platypus2-13B🤗](https://huggingface.co/kyujinpy/KO-Platypus2-13B) Model 제작 완료.  
-   - HuggingFace KO-LLM 1등 달성.
+   - HuggingFace KO-LLM 2등(~~1등~~) 달성.
 
 - 2023.10.04
   - CoT방식으로 Poly-platypus-ko를 fine-tuning한 [CoTy-platypus-ko-12.8b🤗](https://github.com/KyujinHan/Poly-platypus-ko) Model 제작 완료.
-  - HuggingFace KO-LLM 3등(~~2등~~) 달성.
+  - HuggingFace KO-LLM 4등(~~2등~~) 달성.
 
 - 2023.10.02
   - Polyglot-ko를 기반으로 하여 [Poly-platypus-ko-12.8b🤗](https://github.com/KyujinHan/Poly-platypus-ko) Model 제작 완료.  
