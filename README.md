@@ -44,6 +44,10 @@
 - **🥮KO-Platypus2-7B-ex🥮** 모델은 zero-shot에서 llama-2-ko보다 높은 성능을 보여주었고, BoolQ의 경우에는 Polyglot-Ko보다 높은 성능을 보여주었습니다.✌✌
   
 # News
+- 2023.10.08
+   - CoT 방식으로 re-fine-tuning한 [KoT-platypus-13B🤗](https://huggingface.co/kyujinpy/KoT-platypus2-13B) Model 제작 완료.  
+   - HuggingFace KO-LLM 추후 올릴 예정...  
+
 - 2023.10.05
    - [ko-en-llama2-13b](https://huggingface.co/hyunseoki/ko-en-llama2-13b)를 기반으로 한 [Ko-platypus2-13B🤗](https://huggingface.co/kyujinpy/KO-Platypus2-13B) Model 제작 완료.  
    - HuggingFace KO-LLM 1등 달성.
