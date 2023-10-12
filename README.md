@@ -57,7 +57,7 @@
 
 - 2023.10.04
   - CoT방식으로 Poly-platypus-ko를 fine-tuning한 [CoTy-platypus-ko-12.8b🤗](https://github.com/KyujinHan/Poly-platypus-ko) Model 제작 완료.
-  - HuggingFace KO-LLM 5등(~~2등~~) 달성.
+  - HuggingFace KO-LLM ~~5등~~(~~2등~~) 달성.
 
 - 2023.10.02
   - Polyglot-ko를 기반으로 하여 [Poly-platypus-ko-12.8b🤗](https://github.com/KyujinHan/Poly-platypus-ko) Model 제작 완료.  
