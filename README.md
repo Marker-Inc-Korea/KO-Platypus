@@ -94,7 +94,7 @@ ko_platypus_tokenizer = AutoTokenizer.from_pretrained(repo)
   
 # Training 
 1. First download the origina repo [Platypus](https://github.com/arielnlee/Platypus)
-2. 🥮Run the file🥮: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1qtGQroKPwGFA1L9b3WGyHC84NDIEs6s_?usp=sharing)
+2. 🥮Run the file🥮: [Training Code](./)
   
 >*Note: You must access the original [llama-2](https://huggingface.co/meta-llama/Llama-2-7b).      
 >**Note: You must generate your huggingface token. And after login, you can implement this [colab](https://colab.research.google.com/drive/1qtGQroKPwGFA1L9b3WGyHC84NDIEs6s_?usp=sharing).  
