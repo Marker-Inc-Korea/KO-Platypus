@@ -29,7 +29,7 @@
 - 결과적으로 **Ko-Platypus2-7B-EX** 모델을 만들게 되었고✌, 성능평가를 위해 Polyglot-Ko와 llama-2-ko 모델과 비교를 진행했습니다.🙂🙃
   
   
-# Model BenchMark(KO-LLM; will update new version)  
+# Model BenchMark(KO-LLM; old version)  
 | Model | Average | Ko-ARC | Ko-HellaSwag | Ko-MMLU | Ko-TruthfulQA | Ko-CommonGen V2 | Dataset | Base_model |  
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |  
 | [🐳KoR-Orca-Platypus-13B](https://huggingface.co/kyujinpy/KoR-Orca-Platypus-13B) | 50.13 | 42.06 | 53.95 | 42.28 | 43.55 | 68.78 | [KOR-OpenOrca-Platypus](https://huggingface.co/datasets/kyujinpy/KOR-OpenOrca-Platypus) | ko-en-llama2-13b |  
